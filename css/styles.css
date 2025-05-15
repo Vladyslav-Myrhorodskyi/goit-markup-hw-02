@@ -40,6 +40,7 @@ a {
 
 .contacts {
     font-style: normal;
+    color: #434455;
 }
 .contacts-link {
 font-size: 16px;
@@ -58,9 +59,11 @@ letter-spacing: 0.02em;
     background-color: #2e2f42;
 }
 .hero-title {
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
 }
 .hero-button {
     cursor: pointer;
@@ -96,17 +99,21 @@ letter-spacing: 0.02em;
 }
 
 .section-team-title {
+    text-transform: capitalize;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
 }
+.team-item {
+    background-color: #fff;
+}
 
 .team-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -127,6 +134,7 @@ letter-spacing: 0.02em;
 }
 
 .portfolio-title {
+    text-transform: capitalize;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
